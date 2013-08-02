@@ -1,4 +1,4 @@
-# Mongoid::Embedded::Errors::Messages
+# MongoidEmbeddedErrorsMessages
 
 Easiest way to bubble up your embedded documents errors messages.
 
