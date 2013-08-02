@@ -54,7 +54,14 @@ You are now able to retrieve the errors from the embedded documents.
 And the embedded errors messages will be:
 ```ruby
 foo.embedded_errors_messages
-\# => {:foo_field=>["is invalid"], :baz=>{:baz_field=>["is invalid"]}, :bars=>[{:bar_field=>["is invalid"], :quxs=>[{:qux_field=>["is invalid"]}, nil, {:qux_field=>["is invalid"]}]}]}
+
+{
+  :foo_field=>["is invalid"], 
+  :baz=>{:baz_field=>["is invalid"]}, 
+  :bars=>[{:bar_field=>["is invalid"], 
+           :quxs=>[{:qux_field=>["is invalid"]}, nil, {:qux_field=>["is invalid"]}]
+         }]
+}
 ```
 
 ## Contributing
