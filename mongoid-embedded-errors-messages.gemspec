@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = MongoidEmbeddedErrorsMessages::VERSION
   spec.authors       = ["Bruno Milare"]
   spec.email         = ["milare@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Easiest way to bubble up your embedded documents errors messages.}
+  spec.summary       = %q{Easiest way to bubble up your embedded documents errors messages.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
